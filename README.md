@@ -40,7 +40,7 @@ The tool deliberately does not automate consensus. Whole-class adoption still re
 
 ## Academic Wheel image and public reuse
 
-The supplied Academic Wheel image is included as `assets/academic-wheel-of-privilege.png`. Its original creator and publication were not identifiable from the supplied file. The site labels it as a course resource and states the limitation. Before public deployment, confirm that you have permission to republish it and replace the provisional source note with full attribution. If permission or attribution cannot be confirmed, remove the image and retain the surrounding reflection questions and caveats.
+The Academic Wheel image is included as `assets/academic-wheel-of-privilege.png` and attributed in the site to Middleton, S. L., Sulik, J., Iley, B., Elsherif, M. M., and Azevedo, F. (2026), *The Academic Wheel of Privilege: An Equity-Based Tool for Authorship Order*, https://osf.io/preprints/metaarxiv/af4nk_v2. The image is identified as CC BY 4.0, and the site preserves the licence link beside the citation.
 
 ## Files
 
