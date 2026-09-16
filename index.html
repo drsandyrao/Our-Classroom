@@ -7,8 +7,9 @@
   <title>OUR classroom | Living Learning Manifesto</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="content-expansion.css">
+  <script src="assets/jspdf.umd.min.js" defer></script>
   <script src="manifesto-data.js" defer></script>
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=5" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -95,16 +96,16 @@
     </section>
 
     <section class="manifesto-section numbered" id="manifesto" data-number="06">
-      <div class="manifesto-tools no-print"><div><p class="section-kicker">Your assembled proposal</p><h2>This is<br><em>OUR classroom.</em></h2></div><div class="tool-panel"><label>Manifesto title<input id="doc-title" value="OUR classroom"></label><div class="version-fields"><label>Version<input id="version" value="1.0"></label><label>Adopted / revised<input id="version-date" type="date"></label></div><label>Course, class, or section<input id="context-name" placeholder="Add the course and section for this classroom"></label><div class="tool-buttons"><button class="button primary" id="print-button" type="button" onclick="window.print()">Print / Save as PDF</button><button class="text-button danger" id="reset-button" type="button">Start a new classroom</button></div><p class="small">Save or print the completed manifesto before starting a new classroom. Starting again clears the private draft stored in this browser.</p></div></div>
+      <div class="manifesto-tools no-print"><div><p class="section-kicker">Your assembled proposal</p><h2>This is<br><em>OUR classroom.</em></h2></div><div class="tool-panel"><label>Manifesto title<input id="doc-title" value="OUR classroom"></label><div class="version-fields"><label>Version<input id="version" value="1.0"></label><label>Adopted / revised<input id="version-date" type="date"></label></div><label>Course, class, or section<input id="context-name" placeholder="Add the course and section for this classroom"></label><div class="tool-buttons"><button class="button primary" id="download-pdf" type="button">Download PDF</button><button class="button secondary" type="button" onclick="window.print()">Browser print</button><button class="text-button danger" id="reset-button" type="button">Start a new classroom</button></div><p class="small" id="pdf-status" role="status">Download creates the PDF directly. Browser print is available in Chrome, Safari, and other full browsers. Save the completed manifesto before starting a new classroom.</p></div></div>
       <article id="final-document" class="final-document" aria-label="Assembled manifesto"></article>
       <div class="final-save no-print" aria-labelledby="final-save-title">
-        <div><p class="section-kicker">Finished reviewing?</p><h3 id="final-save-title">Save your manifesto.</h3><p>Print a copy or choose “Save as PDF” in your browser’s print window.</p></div>
-        <button class="button primary" id="print-button-bottom" type="button" onclick="window.print()">Print / Save as PDF</button>
+        <div><p class="section-kicker">Finished reviewing?</p><h3 id="final-save-title">Save your manifesto.</h3><p>Download a PDF directly to this device.</p></div>
+        <button class="button primary" id="download-pdf-bottom" type="button">Download PDF</button>
       </div>
     </section>
 
     <section class="section privacy numbered" id="privacy" data-number="07">
-      <div class="section-kicker">Privacy</div><div class="two-col"><h2>Private by<br><em>default.</em></h2><div class="prose"><p>Your work is saved only in this browser’s local storage. It is not sent to an instructor, server, or analytics service. Anyone using this browser profile may be able to see it. Clear the draft before using a shared device.</p><p>When you finish, use Print / Save as PDF. A student or small group can submit that PDF through the course’s usual channel. The instructor and class can then compare the proposals and deliberate about the commitments that will become the shared classroom version.</p></div></div>
+      <div class="section-kicker">Privacy</div><div class="two-col"><h2>Private by<br><em>default.</em></h2><div class="prose"><p>Your work is saved only in this browser’s local storage. It is not sent to an instructor, server, or analytics service. Anyone using this browser profile may be able to see it. Clear the draft before using a shared device.</p><p>When you finish, use Download PDF or Browser print. A student or small group can submit that PDF through the course’s usual channel. The instructor and class can then compare the proposals and deliberate about the commitments that will become the shared classroom version.</p></div></div>
     </section>
 
     <section class="section references" id="references">

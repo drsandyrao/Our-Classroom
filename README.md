@@ -12,7 +12,7 @@ An accessible, private-by-default, evidence-informed Living Learning Manifesto t
 - Local browser saving, visible progress, and category navigation
 - The complete eight-stage repair pathway
 - A versioned, print-ready assembled manifesto
-- Browser Print / Save as PDF output
+- Direct PDF download plus browser printing
 - Responsive layouts, keyboard focus, WCAG-conscious contrast, semantic controls, and reduced-motion support
 
 ## Run locally
@@ -50,6 +50,7 @@ The Academic Wheel image is included as `assets/academic-wheel-of-privilege.png`
 - `manifesto-data.js`: the 17 categories, 52 seeds, provenance summaries, and repair pathway
 - `app.js`: builder state, local saving, assembly, versioning, and printing
 - `assets/academic-wheel-of-privilege.png`: supplied reflection image
+- `assets/jspdf.umd.min.js`: vendored jsPDF 2.5.1 for text-native, private PDF creation in the browser
 
 ## Accessibility and privacy review before launch
 
