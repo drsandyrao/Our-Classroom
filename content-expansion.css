@@ -6,6 +6,25 @@
   caret-color: var(--ink);
 }
 
+.final-save {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  border: 1px solid #65736d;
+}
+
+.final-save h3 {
+  margin: .25rem 0;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+}
+
+.final-save p { margin: .25rem 0 0; }
+.final-save .button { flex: 0 0 auto; }
+
 .purpose-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -71,6 +90,11 @@
 .language-choices > .language-grid { margin-bottom: 0; }
 
 @media (max-width: 800px) {
+  .final-save {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .purpose-grid,
   .principle-grid,
   .language-grid { grid-template-columns: 1fr; }
