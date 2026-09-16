@@ -1,6 +1,11 @@
 .hero { grid-template-columns: 1fr; }
 .hero-copy { max-width: 72rem; }
 
+.tool-panel input {
+  color: var(--ink);
+  caret-color: var(--ink);
+}
+
 .purpose-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
